@@ -16,19 +16,19 @@
    ![image](https://github.com/yash733/Tenserflow-cuda-installation/assets/100533686/e6585cd3-9c34-4269-9916-787f9246567d)
    
 9. things to add, follow the path provided -
-   8.1. C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\"VERSION"\bin .
-   8.2. C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\"VERSION"\libnvvp .
-   8.3. C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\"VERSION"\extras\CUPTI\lib64 .
-   8.4. C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\"VERSION"\extras\CUPTI\include .
-   8.5. C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\"VERSION"\include .
-   8.6. C:\"file_name where you have extracted the cudnn"\include .
-   8.7. C:\cudnn\bin .
+9.1. C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\"VERSION"\bin .
+9.2. C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\"VERSION"\libnvvp .
+9.3. C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\"VERSION"\extras\CUPTI\lib64 .
+9.4. C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\"VERSION"\extras\CUPTI\include .
+9.5. C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\"VERSION"\include .
+9.6. C:\"file_name where you have extracted the cudnn"\include .
+9.7. C:\cudnn\bin .
    
    ![image](https://github.com/yash733/Tenserflow-cuda-installation/assets/100533686/fb2f0423-f695-415e-b55b-118da0125b9b)
    ![image](https://github.com/yash733/Tenserflow-cuda-installation/assets/100533686/facd0699-3c59-4191-97d7-44ef3c1f6ca9)
 
-11. Now pip install tensorflow-gpu==2.10.0 in your code ide (pycharm), if crashes in the middle rerun the code
-12. To test - 
+10. Now pip install tensorflow-gpu==2.10.0 in your code ide (pycharm), if crashes in the middle rerun the code
+11. To test - 
    import tensorflow as tf
    print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
    
