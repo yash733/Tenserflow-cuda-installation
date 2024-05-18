@@ -13,7 +13,6 @@
 6. Create a new folder in your C:/ drive (example: C:/cudnn) and extract the data in the folder
 7. Now set up our environment variables ->
    ![image](https://github.com/yash733/Tenserflow-cuda-installation/assets/100533686/e6585cd3-9c34-4269-9916-787f9246567d)
-
    things to add, follow the path provided -
    7.1. C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\"VERSION"\bin
    7.2. C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\"VERSION"\libnvvp
