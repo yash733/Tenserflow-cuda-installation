@@ -27,7 +27,7 @@
    ![image](https://github.com/yash733/Tenserflow-cuda-installation/assets/100533686/fb2f0423-f695-415e-b55b-118da0125b9b)
    ![image](https://github.com/yash733/Tenserflow-cuda-installation/assets/100533686/facd0699-3c59-4191-97d7-44ef3c1f6ca9)
 
-10. Now pip install tensorflow-gpu==2.10.0 in your code ide (pycharm), if crashes in the middle rerun the code
+10. Now pip install *tensorflow-gpu==2.10.0* in your code ide (pycharm), if crashes in the middle rerun the code
 11. To test - 
    import tensorflow as tf
    print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
