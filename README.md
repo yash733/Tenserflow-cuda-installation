@@ -29,3 +29,6 @@
    ```python  
    import tensorflow as tf  
    print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
+```
+![image](https://github.com/user-attachments/assets/30fdc341-3d46-4bed-b34f-b63738a85d4c)
+
